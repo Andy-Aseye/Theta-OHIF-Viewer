@@ -46,29 +46,34 @@ function StudyList(props) {
     {
       displayText: t('PatientName'),
       fieldName: 'PatientName',
+      PlaceHolder: 'PatientName',
       inputType: 'text',
       size: 330,
     },
     {
       displayText: t('MRN'),
       fieldName: 'PatientID',
+      PlaceHolder: 'PatientID',
       inputType: 'text',
       size: 378,
     },
     {
       displayText: t('AccessionNumber'),
       fieldName: 'AccessionNumber',
+      PlaceHolder: 'AccessionNumber',
       inputType: 'text',
       size: 180,
     },
     {
       displayText: t('StudyDate'),
       fieldName: 'StudyDate',
+      PlaceHolder: 'Study Date',
       inputType: 'date-range',
       size: 300,
     },
     {
       displayText: t('Modality'),
+      PlaceHolder: 'Modality',
       fieldName: 'modalities',
       inputType: 'text',
       size: 114,
@@ -76,6 +81,7 @@ function StudyList(props) {
     {
       displayText: t('StudyDescription'),
       fieldName: 'StudyDescription',
+      PlaceHolder: 'Study Description',
       inputType: 'text',
       size: 335,
     },
